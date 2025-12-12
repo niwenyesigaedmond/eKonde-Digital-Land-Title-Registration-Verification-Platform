@@ -20,7 +20,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/eKonde-Digital-Land-Title-Registration-Verification-Platform">
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/login" element={<Login />} />
