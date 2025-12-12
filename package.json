@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "/https://github.com/niwenyesigaedmond/eKonde-Digital-Land-Title-Registration-Verification-Platform/",
+  "homepage": "https://github.com/Ostech2/eKonde-Digital-Land-Title-Registration-Verification-Platform",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
